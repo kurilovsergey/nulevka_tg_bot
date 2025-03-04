@@ -229,4 +229,4 @@ function askForBet(chatId, username) {
     ask(0);
 }
 
-console.log("Бот запущен...");
+console.log("Бот запущен...",token);
