@@ -3,9 +3,9 @@ const fs = require('fs');
 const moment = require('moment');
 require('dotenv').config();
 
-const token = '8010639257:AAHagoqQeBtTuT-o9SnHr9G1uka1-bX8FnE';
-const adminId = 135224612;
-const assistantId = 5209894548;
+const token = env.token;
+const adminId = env.adminId;
+const assistantId = env.assistantId;
 const bot = new TelegramBot(token, { polling: true });
 
 const betsFile = 'bets.json';
